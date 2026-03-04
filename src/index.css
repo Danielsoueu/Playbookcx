@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Asap", ui-sans-serif, system-ui, sans-serif;
+  --color-hero-pink: #FF005C;
+  --color-hero-dark: #0A0A0A;
+  --color-hero-gray: #F5F5F5;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8F9FA;
+    color: var(--color-hero-dark);
+  }
+}
+
+/* React Flow Customization */
+.react-flow__node {
+  border-radius: 12px;
+  border: none;
+  background: transparent;
+}
+
+.react-flow__edge-path {
+  stroke: #CBD5E1;
+  stroke-width: 2;
+}
+
+.react-flow__controls {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #E2E8F0;
+}
+
+.react-flow__controls-button {
+  border-bottom: 1px solid #E2E8F0;
+  background: white;
+}
+
+.react-flow__controls-button:hover {
+  background: #F8FAFC;
+}
+
+.react-flow__attribution {
+  display: none;
+}
