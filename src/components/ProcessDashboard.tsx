@@ -60,7 +60,7 @@ export default function ProcessDashboard() {
               <div className="p-3 bg-blue-100 text-blue-600 rounded-2xl">
                 <ShieldCheck size={24} />
               </div>
-              <h2 className="text-xl md:text-2xl font-bold">Validação antes de acionar o cliente</h2>
+              <h2 className="text-xl md:text-2xl font-bold">Validação antes de direcionar a solicitação</h2>
             </div>
             
             <p className="text-gray-600 leading-relaxed mb-8 text-base md:text-lg border-b border-gray-100 pb-6">
@@ -103,7 +103,7 @@ export default function ProcessDashboard() {
                     <Clock size={20} />
                   </div>
                   <div>
-                    <h4 className="font-bold text-purple-900">Anuais (Antigos) & Mensais</h4>
+                    <h4 className="font-bold text-purple-900">Anuais de meses anteriores & Mensais</h4>
                     <p className="text-sm text-purple-700 leading-tight mt-1">
                       Referentes a meses anteriores ou qualquer plano mensal
                     </p>
@@ -137,7 +137,7 @@ export default function ProcessDashboard() {
             </div>
             
             <p className="text-gray-400 mb-6 text-sm leading-relaxed">
-              Vamos estruturar um fluxo interno para garantir mais contexto antes de acionar o cliente. É necessário entender previamente qual tipo de negociação ele deseja.
+              É necessário entender previamente qual tipo de negociação ele deseja.
             </p>
 
             <ul className="space-y-3 mb-8">
