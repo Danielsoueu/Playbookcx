@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { 
   Clock, 
@@ -10,7 +11,8 @@ import {
   MessageSquare,
   ShieldCheck,
   Target,
-  Calendar
+  Calendar,
+  BookOpen
 } from 'lucide-react';
 
 const container = {
@@ -178,10 +180,20 @@ export default function ProcessDashboard() {
 
           <div className="space-y-6">
             <div>
-              <h3 className="font-bold text-gray-900 mb-2 flex items-center gap-2 text-sm uppercase tracking-wide">
-                <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                Cancelamento
-              </h3>
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+                <h3 className="font-bold text-gray-900 flex items-center gap-2 text-sm uppercase tracking-wide">
+                  <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+                  Cancelamento
+                </h3>
+                <Link 
+                  to="/cancelamento" 
+                  className="flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-wider text-white bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-full shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5 group relative overflow-hidden"
+                >
+                  <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+                  <BookOpen size={14} className="relative" />
+                  <span className="relative">Ver Guia Prático</span>
+                </Link>
+              </div>
               <div className="space-y-2 pl-4 border-l-2 border-orange-100">
                 <div className="flex justify-between items-start">
                   <span className="text-sm text-gray-600">Retorno imediato</span>
