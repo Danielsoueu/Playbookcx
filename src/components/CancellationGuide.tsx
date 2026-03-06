@@ -174,7 +174,7 @@ Abraços,`
                 
                 <div className="rounded-xl overflow-hidden border border-orange-200 shadow-sm bg-white max-w-[70%] mx-auto">
                   <img 
-                    src="https://file.notion.so/f/f/91095438-d342-4604-9c58-001ea96f0455/91d8ddab-0616-4584-befd-194118ad9d6f/criarticket.gif?table=block&id=c141a257-12c3-4aba-9b2d-90956fb590d1&spaceId=91095438-d342-4604-9c58-001ea96f0455&expirationTimestamp=1772762400000&signature=c2fYw5m_TBmM6ah4QKi9vR17Nu65ysR5oe3t6eKbuhY" 
+                    src="https://i.ibb.co/d0MTRHbj/Pipeline-de-reten-o.gif" 
                     alt="Como criar ticket no HubSpot" 
                     className="w-full h-auto"
                     referrerPolicy="no-referrer"
@@ -315,7 +315,7 @@ Abraços,`
               
               <div className="rounded-xl overflow-hidden border border-indigo-100 shadow-sm bg-white max-w-[70%] mx-auto">
                 <img 
-                  src="https://file.notion.so/f/f/91095438-d342-4604-9c58-001ea96f0455/1cac776b-997a-4dd9-8887-ef84dcab4a17/criarticket.gif?table=block&id=013b3ad7-75cf-4f85-823c-4ebe42115498&spaceId=91095438-d342-4604-9c58-001ea96f0455&expirationTimestamp=1772762400000&signature=j4vqYIKEc5m2IjStdshPvGFCSmZPq8FLFBvAm7fjEpA" 
+                  src="https://i.ibb.co/Ng3g15y8/Abertura-de-ticket-atrav-s-da-caixa-de-entrada.gif" 
                   alt="Como criar ticket via e-mail no HubSpot" 
                   className="w-full h-auto"
                   referrerPolicy="no-referrer"
@@ -373,7 +373,7 @@ Abraços,`
                 <div className="flex flex-col md:flex-row gap-6 items-center">
                   <div className="w-[70%] md:w-1/2 mx-auto md:mx-0 rounded-xl overflow-hidden border border-pink-200 shadow-sm bg-white">
                     <img 
-                      src="https://file.notion.so/f/f/91095438-d342-4604-9c58-001ea96f0455/512b4b6e-670a-417c-be98-9fa2246d6515/pipelinedereteno.gif?table=block&id=fa0cfa23-d50c-4a1f-8fa8-56328331033f&spaceId=91095438-d342-4604-9c58-001ea96f0455&expirationTimestamp=1772762400000&signature=jqDPb3Kfu49hILWIKpPY1uxidt0Qol2x4W9q8TDUUDk" 
+                      src="https://i.ibb.co/spF1H5fN/Link-da-pipe-de-Reten-o.gif" 
                       alt="Demonstrativo Pipeline Retenção" 
                       className="w-full h-auto"
                       referrerPolicy="no-referrer"
